@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Petit+Formal+Script&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-color: white;
+   
+}
+section{
+   
+    padding: 80px 100px;
+  
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+.sec-01{
+  background-image: url("emile-perron-xrVDYZRGdw4-unsplash.jpg");
+  background-position: center;
+  object-fit: contain;
+background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+.text-box{
+width: 50%;
+padding-top: 100px;
+
+}
+.text-box h2{
+    color: blueviolet;
+    font-size: 2em;
+
+}
+.text-box p{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+.text-box a{
+    padding: 10px;
+    background-color: none;
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+.sec-02{
+    padding: 100px;
+    background-color: gainsboro;
+    border-top: outset;
+    border-bottom: outset;
+}
+.content2{
+    display: flex;
+    
+
+}
+.content2 .image{
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.content2 img{
+  height: 100%;  
+}
+i{
+    color: lightblue;
+}
+.content2 .why-info{
+    width: 700px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.why-info p{
+margin-top: 20px;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-size: larger;
+color: darkred;
+margin-bottom: 70px;
+}
+
+.why-info h2{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+.why-info li{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border-bottom: 1px solid rgba(248, 248, 255, 0.265);
+    padding: 15px 0px;
+    list-style: none;
+    
+}
+
+
+
+.sec-03{
+ padding: 60px 60px;
+
+ 
+}
+.sec-03 .content{
+    display: flex;
+   
+}
+.content .image{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+   
+}
+.content .mission{
+    width: 700px;
+    margin-right: 100px;
+    margin-top: 50px;
+   
+}
+.content p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin:10px 0px;
+  line-height: 25px;
+}
+.mission h2{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    
+    
+}
+.content h4{
+ margin-top: 10px;
+}
+.carousel-item{
+  text-align: center;
+  width: 100%;
+height: 400px;
+}
+.carousel-item p{
+    margin: 10px 0px;
+}
+#demo{
+   
+    width: 500px;
+   text-align: center;
+}
+.carousel-container {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px; 
+    width: 100%;
+  }
+  
+ .review{
+    font-family: 'Petit Formal Script', cursive;
+ }
+ .reviewer-name{
+ color: darkred;
+ font-family: "Poppins", sans-serif ;
+ font-size: 20px;
+ margin-top: 10px;
+ }
+.reviewer-name i{
+    color: goldenrod;
+}
+  .text{
+  padding-top: 20px;
+  font-size: 20px;
+ font-style: italic;
+ line-height: 40px;
+  }
+  
+.carousel-container h1{
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+}
+.comment-s{
+  width: 100%; 
+}
+.footer{
+    height: 300px;
+    background-color: black;
+    width: 100%;
+    padding: 0;
+}
+
+/*REsponsive*/
+@media screen and (max-width:858px){
+    section{
+   
+        padding: 0px 5px;
+      
+       
+    }
+   
+    .sec-01{
+        position: relative;
+      background-size:cover;
+      width: 100%;
+     background-repeat: no-repeat;
+     padding: 10px ;
+      }
+      .text-box{
+        width: 100%;
+        margin-top: 120px;
+        padding: 100px 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        backdrop-filter: blur(8px); /* Adjust the blur intensity as needed */
+        z-index: 1;
+     }
+      .text-box h2{
+        font-size: 2em;
+      }
+      .text-box p{
+        font-size: 1em;
+        width: 100%;
+      }
+      .text-box a{
+        font-size: 12px;
+      }
+    
+      .content2{
+        flex-direction: column;
+        
+        
+      }
+      .content2 .image{
+      width: 100%;
+      margin-bottom: 10px;
+      height: 300px;
+    }
+    .sec-02{
+     background-color: gainsboro;
+     padding: 50px;
+    }
+    .content2 .why-info{
+        width: 100%;
+        margin:0px;
+        
+    }
+    .why-info p{
+        margin-top: 10px;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: large;
+        margin-bottom: 30px;
+     
+        }
+        .sec-03{
+            padding: 60px 30px;
+          
+           
+            
+           }
+        .sec-03 .content{
+            flex-direction: column;
+           
+        }
+        .content .image{
+            width: 100%;
+            height: 300px;
+            
+            margin: 0px;
+
+        }
+        .content .mission{
+            width: 100%;
+            margin-right: 0px;
+           
+        }
+        .content p{
+           margin:10px 0px;
+          font-size: 15px;
+          
+        }
+        .text{
+            
+            font-size: 12px;
+            padding: 20px;
+           
+         
+            }
+            .carousel-container {
+                background-color: gainsboro;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                width: 100%;
+              }
+              .reviewer-name{
+                
+                font-size: 1em;
+                margin-top: 10px;
+                }
+   
+           
+
+}
